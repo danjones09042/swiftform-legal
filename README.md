@@ -25,6 +25,6 @@ App Dashboard → Settings → Basic:
 
 ## Before going live
 
-- Confirm `support@swiftform.co.za` exists and is monitored — both pages route all requests there.
+- Confirm `djones@swiftform.co.za` exists and is monitored — both pages route all requests there.
 - Confirm the dashboard really has **Settings → Account → Delete account**; if not, either build it or reword that section to email-only.
 - Have a lawyer review before you take real customer data.
