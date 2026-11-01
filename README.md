@@ -1,30 +1,12 @@
 # swiftform-legal
 
-Static legal pages for SwiftForm, served via GitHub Pages.
+SwiftForm's legal pages have moved to the app's own domain. They are now
+maintained in the app repository (`frontend/public/legal`):
 
-- `index.html` — Privacy Policy
-- `data-deletion.html` — Data Deletion Instructions
+- Privacy Policy: https://swiftform.co.za/legal/privacy.html
+- Terms of Service: https://swiftform.co.za/legal/terms.html
+- Data Deletion Instructions: https://swiftform.co.za/legal/data-deletion.html
 
-## Publishing
-
-Repo must be **public** for GitHub Pages on a free plan.
-
-Settings → Pages → Source: *Deploy from a branch* → Branch: `main`, folder: `/ (root)`.
-
-URLs after deploy (~1 min):
-
-- Privacy Policy: `https://<user>.github.io/swiftform-legal/`
-- Data Deletion: `https://<user>.github.io/swiftform-legal/data-deletion.html`
-
-## Where these go in the Meta App Dashboard
-
-App Dashboard → Settings → Basic:
-
-- **Privacy Policy URL** → the privacy policy URL above
-- **User Data Deletion** → *Data Deletion Instructions URL* → the data deletion URL above
-
-## Before going live
-
-- Confirm `djones@swiftform.co.za` exists and is monitored — both pages route all requests there.
-- Confirm the dashboard really has **Settings → Account → Delete account**; if not, either build it or reword that section to email-only.
-- Have a lawyer review before you take real customer data.
+The pages here only redirect there, so links to the old GitHub Pages
+addresses (including any still set in the Meta App Dashboard) keep working.
+Do not edit legal text here.
